@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  height: 120px;
+  width: auto;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 2px solid black;
+  margin: 10px;
+  width: 30%;
+}
+
+.id-card{
+  border: 2px solid black;
+  margin: 10px;
+  width: 30%;
 }
